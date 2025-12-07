@@ -1,0 +1,53 @@
+---
+const skillCategories = [
+  {
+    title: "Keywords",
+    skills: ["Machine Learning (ML)", "Deep Learning", "GenAI", "LLM", "transformers", "CNN", "GNN", "RNN", "Retrieval Augmented Generation (RAG)", "MLOps"]
+  },
+  {
+    title: "LLM Tools",
+    skills: ["Hugging Face's transformers and datasets", "LangChain", "NVIDIA NeMo-Guardrails", "OpenAI API"]
+  },
+  {
+    title: "ML Frameworks",
+    skills: ["PyTorch (Lightning)", "TensorFlow/Keras", "Flax(Jax)"]
+  },
+  {
+    title: "Data Science/MLOps Tools",
+    skills: ["Numpy", "Pandas", "Streamlit/Gradio", "NetworkX", "Docker", "FastAPI", "Matplotlib", "Seaborn", "Plotly"]
+  }
+];
+
+const languages = [
+  { name: "Spanish", level: "Native (*****)" },
+  { name: "English", level: "Full Professional (*****)" },
+  { name: "French", level: "Intermediate (★★★***)" }
+];
+---
+<section class="py-8">
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">ML Stack & Languages</h2>
+    
+    <div class="space-y-6">
+        {skillCategories.map((category) => (
+            <div class="bg-white shadow overflow-hidden sm:rounded-lg p-6">
+                <h3 class="text-lg font-medium text-gray-900 mb-3">{category.title}</h3>
+                <div class="flex flex-wrap gap-2">
+                    {category.skills.map((skill) => (
+                        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                            {skill}
+                        </span>
+                    ))}
+                </div>
+            </div>
+        ))}
+
+        <div class="bg-white shadow overflow-hidden sm:rounded-lg p-6">
+            <h3 class="text-lg font-medium text-gray-900 mb-3">Languages</h3>
+            <ul class="list-disc list-inside text-gray-600">
+                {languages.map((lang) => (
+                    <li><span class="font-medium text-gray-900">{lang.name}:</span> {lang.level}</li>
+                ))}
+            </ul>
+        </div>
+    </div>
+</section>

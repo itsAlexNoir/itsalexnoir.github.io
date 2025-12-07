@@ -1,0 +1,30 @@
+---
+const patents = [
+  {
+    authors: "Almazán, E., Tovar, J., & de la Calle, A.",
+    year: "2023",
+    title: "Initialization of classification layers in neural networks",
+    details: "(U.S. Patent No. US 11676034 B2). U.S. Patent and Trademark Office"
+  },
+  {
+    authors: "Almazán, E., Tovar, J., & de la Calle, A.",
+    year: "2022",
+    title: "Methods, systems, apparatus and articles of manufacture to apply a regularization loss in machine learning models",
+    details: "(U.S. Patent No. US 20220092424 A1). U.S. Patent and Trademark Office"
+  }
+];
+---
+<section class="py-8">
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Patents</h2>
+    <div class="bg-white shadow overflow-hidden sm:rounded-lg p-6">
+        <ul class="space-y-4">
+            {patents.map((patent) => (
+                <li class="text-gray-600">
+                    <span class="font-medium text-gray-900">{patent.authors}</span> ({patent.year}). 
+                    <span class="font-bold">{patent.title}</span>. 
+                    <span class="italic">{patent.details}</span>.
+                </li>
+            ))}
+        </ul>
+    </div>
+</section>

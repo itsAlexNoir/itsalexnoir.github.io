@@ -1,0 +1,64 @@
+---
+const education = [
+  {
+    degree: "Specialization on Bioinformatics and Computational Genomics",
+    institution: "University of Salamanca",
+    period: "10/25 – Now",
+    details: []
+  },
+  {
+    degree: "MSc in Visual Analytics and Big Data",
+    institution: "International University of La Rioja (UNIR)",
+    period: "03/18 – 03/22",
+    details: [
+      "Thesis Title: 'Traffic forecasting in the city of Madrid using Graph Neural Networks'",
+      "Advisor: Dr. Ricardo S. Alonso Rincón"
+    ]
+  },
+  {
+    degree: "PhD in Theoretical Physics",
+    institution: "Queen's University Belfast",
+    period: "04/12 – 09/17",
+    details: [
+      "Thesis Title: 'Dissociative ionisation of the hydrogen molecular ion in intense laser fields'",
+      "Advisor: Dr. Daniel Dundas"
+    ]
+  },
+  {
+    degree: "MSc in Physics and Technology of Lasers",
+    institution: "University of Salamanca",
+    period: "09/10 – 09/11",
+    details: [
+      "Master thesis title: 'Interaction of attosecond pulses with aligned molecules'",
+      "Advisors: Camilo Ruiz and Ricardo Torres"
+    ]
+  },
+  {
+    degree: "BSc in Physics",
+    institution: "University of Salamanca",
+    period: "09/03 – 01/10",
+    details: []
+  }
+];
+---
+<section class="py-8">
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Education</h2>
+    <div class="space-y-6">
+        {education.map((edu) => (
+            <div class="bg-white shadow overflow-hidden sm:rounded-lg p-6">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2">
+                    <h3 class="text-lg font-medium text-gray-900">{edu.degree}</h3>
+                    <span class="text-sm text-gray-500 mt-1 sm:mt-0">{edu.period}</span>
+                </div>
+                <p class="text-gray-700 font-medium">{edu.institution}</p>
+                {edu.details.length > 0 && (
+                    <ul class="list-disc list-inside mt-2 text-gray-600">
+                        {edu.details.map((detail) => (
+                            <li>{detail}</li>
+                        ))}
+                    </ul>
+                )}
+            </div>
+        ))}
+    </div>
+</section>

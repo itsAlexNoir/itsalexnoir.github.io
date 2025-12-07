@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Experience from '../components/Experience.astro';
+import Education from '../components/Education.astro';
+import Skills from '../components/Skills.astro';
+import Publications from '../components/Publications.astro';
+import Patents from '../components/Patents.astro';
+import Honours from '../components/Honours.astro';
+import Courses from '../components/Courses.astro';
+---
+
+<Layout title="Alejandro de la Calle, PhD - CV">
+	<Header />
+	<main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+		<Skills />
+		<Experience />
+		<Education />
+		<Publications />
+		<Patents />
+		<Honours />
+		<Courses />
+	</main>
+</Layout>

@@ -1,0 +1,32 @@
+---
+const honours = [
+  {
+    title: "Finalist",
+    date: "12/2016",
+    details: [
+      "ARCHER image competition 2016",
+      "Image selected for the 2017 ARCHER calendar (Scientific & Data Visualisation)"
+    ]
+  }
+];
+---
+<section class="py-8">
+    <h2 class="text-2xl font-bold text-gray-900 mb-4">Honours & Awards</h2>
+    <div class="bg-white shadow overflow-hidden sm:rounded-lg p-6">
+        <ul class="space-y-4">
+            {honours.map((honour) => (
+                <li class="text-gray-600">
+                    <div class="flex justify-between">
+                        <span class="font-bold text-gray-900">{honour.title}</span>
+                        <span class="text-sm text-gray-500">{honour.date}</span>
+                    </div>
+                    <ul class="list-disc list-inside mt-1">
+                        {honour.details.map((detail) => (
+                            <li>{detail}</li>
+                        ))}
+                    </ul>
+                </li>
+            ))}
+        </ul>
+    </div>
+</section>

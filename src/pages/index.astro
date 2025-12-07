@@ -1,16 +1,49 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Experience from '../components/Experience.astro';
-import Education from '../components/Education.astro';
-import Skills from '../components/Skills.astro';
+import Layout from '../layouts/Layout.astro'
+
+import { profile } from '@/settings'
+import { publications } from '@/data/cv'
+import ProfilePictures from '@/assets/profile_pictures.jpg'
+import Hero from '@/components/ui/Hero.astro'
+import Grid from '@/components/ui/Grid.astro'
+import ArticleList from '@/components/ui/ArticleList.astro'
+import Thesis from '@/components/ui/Thesis.astro'
+
+const { fullName, title, institute, research_areas } = profile
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout title="Alejandro de la Calle - CV">
-	<Header />
-	<main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-		<Experience />
-		<Education />
-		<Skills />
-	</main>
+<Layout>
+	<!-- Hero Section -->
+	<section class='flex items-center gap-12 border-b pb-12'>
+		<Hero
+			fullName={fullName}
+			title={title}
+			institute={institute}
+			profilePicture={ProfilePictures}
+		/>
+	</section>
+
+	<!-- Research Areas -->
+	<section class='py-12 border-b'>
+		<Grid gridTitle='Research Areas' gridItems={research_areas} />
+	</section>
+
+
+	<!-- PhD Thesis -->
+	<!-- <section class='py-12 border-b'>
+		<Thesis
+			title="Dissociative ionisation of the hydrogen molecular ion in intense laser fields"
+			abstract="This thesis explores the dissociative ionisation of the hydrogen molecular ion (H₂⁺) when exposed to intense laser fields. By solving the time-dependent Schrödinger equation, we investigate the complex dynamics of electron and nuclear motion. The study reveals insights into the interplay between ionization and dissociation pathways, highlighting the role of electron correlation and interference effects. These findings contribute to a deeper understanding of light-matter interactions in simple molecular systems, paving the way for control schemes in attosecond science."
+			downloadLink="/thesis.pdf"
+		/>
+	</section> -->
+	
+	<!-- Recent Publications -->
+	<!-- <section class='py-12 border-t'>
+		<ArticleList listTitle='Recent Publications' listItems={publications} />
+	</section> 
+	-->
 </Layout>
