@@ -10,11 +10,30 @@ const thesisDetails = {
   institution: "International University of La Rioja (UNIR)",
   year: "2022",
   abstract: `
-  Traffic forecasting is a crucial component of intelligent transportation systems, enabling better traffic management and route planning. This thesis explores the application of Graph Neural Networks (GNNs) to predict traffic flow in the city of Madrid. By modeling the road network as a graph where intersections are nodes and roads are edges, we capture the spatial dependencies of traffic patterns.
-  
-  We implement and evaluate Spatio-Temporal Graph Convolutional Networks (ST-GCN) to handle both the spatial topology of the road network and the temporal dynamics of traffic data. The model is trained on real-world traffic data collected from sensors across Madrid.
-  
-  The results demonstrate that GNN-based approaches outperform traditional time-series forecasting methods by effectively leveraging the connectivity information of the road network. This work contributes to the growing field of deep learning for urban computing and provides a scalable solution for city-wide traffic prediction.
+  One of the greatest challenges facing modern societies is the management of
+  road traffic and the problems that directly result from it: congestion, accidents and
+  pollution. In order to mitigate and suppress these adverse effects, it is necessary to create increasingly accurate and realistic descriptions that can account for such a
+  complex phenomenon as traffic. In particular, thanks to the ever-increasing volume
+  of data currently available, in recent years there have been numerous works based
+  on machine learning that have proposed predictive models by means of learning th-
+  rough real data sources. Specifically, the type of neural networks based on graphs is
+  able to capture the spatial and temporal correlation that exists between the different
+  elements of a road network understood as a graph. This work aims to evaluate a
+  pair of predictive models based on graph neural networks, DCRNN and Graph Wa-
+  venet (GWN), applied to the case of the city of Madrid. For this purpose, a dataset
+  has been compiled from open data corresponding to measurements taken during six
+  months by a sensor network on the roads of the city of Madrid. Firstly, the analysis
+  of the obtained dataset shows a strong periodicity with two marked frequencies: a
+  daily one, with ups and downs around the hours of entry and exit of the working day
+  and a minimum of night activity; and a weekly one, with a clear separation between
+  weekday and weekend values. Secondly, the results of the evaluations reveal a null
+  dependence on the spatial dependency. This fact may be due to the fact that the
+  traffic roads of the M30 are one-way, with no two-way flow on these roads that can
+  be picked up by the same sensor. In addition, the results of the GWN model show
+  that the inclusion of an adaptive term to obtain the adjacency matrix at training time
+  improves the prediction significantly. Although the inclusion of this term alone has a
+  clearly higher error than the other cases, the results show that it is possible to make
+  a forecast with this type of model without knowledge of the network structure.
   `,
   pdfLink: thesisPdf
 };
