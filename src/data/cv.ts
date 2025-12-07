@@ -4,7 +4,7 @@ export const experiences = [
 		time: '04/2024 - Present',
 		title: 'AI Lead',
 		location: 'AI lab',
-		description: 'Leads a team of ML and MLOps engineers dedicated to building a platform to evaluate a variety of LLMs for the new HP\'s AI PC. Evaluations include calculating common metrics, such as perplexity, BLEU or ROUGE. Carried out single and pairwise evaluations using techniques such as LLM-as-a-judge and agent-as-a-judge with specifically fined-tuned models. Runs both locally open-sourced models (using Hugging Face libraries and LangChain) and calls different API\'s for different private models for inference. The team is also investigating and developing new metrics to assess LLM\'s performance in different scenarios, such as QA, retrieval information (RAG), harmfulness or agent evaluation.',
+		description: 'Leads a team of ML and MLOps engineers dedicated to building a platform to evaluate a variety of ML models, especially LLMs. The platform can evaluate models both run local or on the cloud. The team is also investigating and developing new metrics to assess LLM\'s performance in different scenarios. Continues to co-supervise BSc and MSc thesis in collaboration with several Spanish universities.',
 	},
 	{
 		company: 'HP SCDS',
@@ -158,3 +158,21 @@ export const publications = [
 		time: '2014',
 	},
 ];
+
+export const patents = [
+	{
+		title: 'Initialization of classification layers in neural networks',
+		authors: 'Almazán, E., Tovar, J., & de la Calle, A.',
+		patentNumber: 'U.S. Patent No. US 11676034 B2',
+		office: 'U.S. Patent and Trademark Office',
+		time: '2023',
+	},
+	{
+		title: 'Methods, systems, apparatus and articles of manufacture to apply a regularization loss in machine learning models',
+		authors: 'Almazán, E., Tovar, J., & de la Calle, A.',
+		patentNumber: 'U.S. Patent No. US 20220092424 A1',
+		office: 'U.S. Patent and Trademark Office',
+		time: '2022',
+	},
+];
+

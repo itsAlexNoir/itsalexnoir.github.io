@@ -35,6 +35,6 @@ export const template = {
 
 export const seo = {
 	default_title: 'Alex de la Calle website',
-	default_description: 'Astro Academia is a template for academic websites.',
+	default_description: 'Alex de la Calle, PhD - Computational Scientist and AI Engineer.',
 	default_image: '/images/astro-academia.png',
 }

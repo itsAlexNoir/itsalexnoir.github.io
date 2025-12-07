@@ -28,6 +28,15 @@ export interface Publication {
   abstract?: string;
 }
 
+export interface Patent {
+  title: string;
+  authors: string;
+  patentNumber: string;
+  office: string;
+  time: string;
+  link?: string;
+}
+
 export function isExperience(element: Experience | Education): element is Experience {
   return 'title' in element && 'company' in element;
 }
