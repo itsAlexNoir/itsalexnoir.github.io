@@ -98,19 +98,27 @@ export const education = [
 export const skills = [
 	{
 		title: 'Keywords',
-		description: 'Machine Learning (ML), Deep Learning, GenAI, LLM, transformers, CNN, GNN, RNN, Retrieval Augmented Generation (RAG), MLOps.',
+		description: 'Machine Learning (ML), Deep Learning, GenAI, LLM, CNN, GNN, RNN, RAG, MLOps.',
 	},
 	{
 		title: 'LLM Tools',
-		description: 'Hugging Face\'s transformers and datasets, LangChain, NVIDIA NeMo-Guardrails, OpenAI API.',
+		description: 'Hugging Face\'s transformers and datasets, LangChain, llama.cpp, VLLM, SGLang, NVIDIA Tensor-RT, OpenAI API.',
 	},
 	{
 		title: 'ML Frameworks',
-		description: 'PyTorch (Lightning), TensorFlow/Keras, Flax(Jax).',
+		description: 'PyTorch (Lightning), Scikit-learn,TensorFlow/Keras, Flax(Jax).',
 	},
 	{
-		title: 'Data Science/MLOps Tools',
-		description: 'Numpy, Pandas, Streamlit/Gradio, NetworkX, Docker, FastAPI, Matplotlib, Seaborn, Plotly.',
+		title: 'Data Science',
+		description: 'Numpy, Pandas, Tidyverse, Streamlit/Gradio, Biopython, Bioconductor, NetworkX',
+	},
+	{
+		title: 'Visualization Tools',
+		description: 'Matplotlib, Seaborn, Bokeh, Altair, Plotly.',
+	},
+	{
+		title: 'DevOps/MLOps Tools',
+		description: 'Git, Docker, FastAPI, AWS (EC2, S3), Linux/Unix Administration, HPC schedulers (Slurm).',
 	},
 	{
 		title: 'Languages',

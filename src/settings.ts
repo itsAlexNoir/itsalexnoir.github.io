@@ -4,8 +4,8 @@ export const profile = {
 	institute: 'HP SCDS',
 	author_name: 'A. de la Calle', // Author name to be highlighted in the papers section
 	research_areas: [
-		{ title: 'Machine Learning', description: 'Deep Learning, GenAI, LLM, Transformers', field: 'ml' },
-		{ title: 'Computational Science', description: 'HPC, Scientific Computing', field: 'cs' },
+		{ title: 'Artificial Intelligence', description: 'Deep Learning, Machine Learning, Neural Networks, LLM, GenAI', field: 'ml' },
+		{ title: 'Computational Science', description: 'Scientific Computing, High Performance Computing (HPC)', field: 'cs' },
 	],
 }
 
@@ -19,7 +19,7 @@ export const social = {
 	scholar: '',
 	inspire: '',
 	arxiv: '',
-	orcid: '',
+	orcid: 'https://orcid.org/my-orcid?orcid=0000-0001-9414-7895',
 }
 
 export const template = {
@@ -34,7 +34,7 @@ export const template = {
 }
 
 export const seo = {
-	default_title: 'Astro Academia',
+	default_title: 'Alex de la Calle website',
 	default_description: 'Astro Academia is a template for academic websites.',
 	default_image: '/images/astro-academia.png',
 }
