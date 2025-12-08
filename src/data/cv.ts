@@ -132,30 +132,35 @@ export const publications = [
 		authors: 'E. J. Almazán, J. Tovar, A. de la Calle',
 		journal: 'Advances in Physicsl Agents II. WAF 2020. Advances in Intelligent Systemes and Computing, vol 1285, Nov 2020',
 		time: '2020',
+		link: 'https://doi.org/10.1007/978-3-030-62579-5_21',
 	},
 	{
 		title: 'Geometric interpretation of a CNN\'s last layer',
 		authors: 'A. de la Calle, A. Aller, J. Tovar and E. J. Almazán',
 		journal: 'The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, June 2019',
 		time: '2019',
+		link: 'http://openaccess.thecvf.com/content_CVPRW_2019/html/Explainable_AI/de_la_Calle_Geometric_interpretation_of_a_CNNs_last_layer_CVPRW_2019_paper.html',
 	},
 	{
 		title: 'Probing the role of excited states in ionization of acetylene',
 		authors: 'P. Mulholland, A. Wardlow, A. de la Calle and D. Dundas',
 		journal: 'Phys. Chem. Chem. Phys., 19, 19619-19630, 2017',
 		time: '2017',
+		link: 'https://doi.org/10.1039/c7cp01661a',
 	},
 	{
 		title: 'Control of ionization and dissociation of H₂⁺ by elliptically polarized ultra-short VUV laser pulses',
 		authors: 'A. de la Calle, A. Palacios, F. Martín and D. Dundas',
 		journal: 'Journal of Physics: Conference Series Vol. 635. 11. 2015, p. 112037, 2017',
 		time: '2017',
+		link: 'https://doi.org/10.1088/1742-6596/635/11/112037',
 	},
 	{
 		title: 'Time-dependent electron interference prior to ionization in the hydrogen atom and hydrogen molecular ion',
 		authors: 'A. de la Calle, D. Dundas and K.T. Taylor',
 		journal: 'Journal of Physics: Conference Series Vol. 488. 3. p. 032039, 2014',
 		time: '2014',
+		link: 'https://doi.org/10.1088/1742-6596/488/3/032039',
 	},
 ];
 

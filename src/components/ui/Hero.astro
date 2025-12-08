@@ -12,8 +12,7 @@ const {fullName, title, institute, profilePicture} = Astro.props
   </h1>
   <p class='text-xl text-gray-600 mb-4'>{title}{institute ? ` at ${institute}` : ''}</p>
   <p class='text-lg mb-6'>
-    Brief impactful description of your research focus and academic mission.
-    Highlight your key contributions and areas of expertise.
+    {Astro.props.description || 'I am a seasoned Computational Scientist and AI Engineer with a deep-seated interest in advanced computation and the innovative solutions it offers. My career spans the development and application of cutting-edge computational methods, from High-Performance Computing (HPC) to leading-edge Machine Learning and Generative AI (GenAI) systems. With a PhD in Theoretical Physics and two MSc\'s in Visual Analytics and Big Data and Physics and Technology of Lasers, I am well-equipped to leverage computational power to solve complex problems across diverse fields, now extending my focus to the challenging and rewarding domain of bioinformatics.'}
   </p>
   <div class='flex gap-4'>
     <SocialIcons />
