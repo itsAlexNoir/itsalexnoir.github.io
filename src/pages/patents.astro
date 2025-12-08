@@ -4,7 +4,7 @@ import { patents } from "@/data/cv";
 import { highlightAuthor } from "@/lib/utils";
 import {template} from "@/settings";
 
-const ALL_PAPERS = patents; // This will be replaced with dynamic data later
+const ALL_PATENTS = patents;
 ---
 
 <Layout title="Patents">
@@ -13,41 +13,33 @@ const ALL_PAPERS = patents; // This will be replaced with dynamic data later
 
     <div class="space-y-8">
       {
-        ALL_PAPERS.map((paper) => (
+        ALL_PATENTS.map((patent) => (
           <div class="card bg-base-200">
             <div class="card-body">
               <h2 class="card-title text-xl">
-                <a href={template.base + paper.link} class="hover:text-accent">
-                  {paper.title}
-                </a>
+                {patent.title}
               </h2>
               <p class="text-base mb-2">
                 <span class="font-medium">Authors:</span>{" "}
-                <span set:html={highlightAuthor(paper.authors)} />
+                <span set:html={highlightAuthor(patent.authors)} />
+              </p>
+              <p class="text-sm mb-1">
+                <span class="font-medium">Patent Number:</span> {patent.patentNumber}
               </p>
               <p class="text-sm mb-3">
-                <span class="italic">{paper.journal}</span> • {paper.time}
+                <span class="italic">{patent.office}</span> • {patent.time}
               </p>
-              <p class="text-sm text-base-content/80">{paper.abstract}</p>
-              <div class="card-actions justify-end mt-4">
-                <a href={paper.link} class="btn btn-sm btn-secondary text-secondary-content">
-                  Read Paper
-                </a>
-              </div>
+              {patent.link && (
+                <div class="card-actions justify-end mt-4">
+                  <a href={patent.link} target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                    View Patent
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         ))
       }
-    </div>
-
-    <div class="flex justify-center mt-8">
-      <div class="join">
-        <button class="join-item btn btn-sm">«</button>
-        <button class="join-item btn btn-sm">1</button>
-        <button class="join-item btn btn-sm btn-active">2</button>
-        <button class="join-item btn btn-sm">3</button>
-        <button class="join-item btn btn-sm">»</button>
-      </div>
     </div>
   </div>
 </Layout>

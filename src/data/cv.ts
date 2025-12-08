@@ -166,6 +166,7 @@ export const patents = [
 		patentNumber: 'U.S. Patent No. US 11676034 B2',
 		office: 'U.S. Patent and Trademark Office',
 		time: '2023',
+		link: 'https://patents.google.com/patent/US11676034B2/en',
 	},
 	{
 		title: 'Methods, systems, apparatus and articles of manufacture to apply a regularization loss in machine learning models',
@@ -173,6 +174,7 @@ export const patents = [
 		patentNumber: 'U.S. Patent No. US 20220092424 A1',
 		office: 'U.S. Patent and Trademark Office',
 		time: '2022',
+		link: 'https://patents.google.com/patent/US20220092424A1/en',
 	},
 ];
 
