@@ -19,7 +19,7 @@ export const social = {
 	scholar: '',
 	inspire: '',
 	arxiv: '',
-	orcid: 'https://orcid.org/my-orcid?orcid=0000-0001-9414-7895',
+	orcid: 'https://orcid.org/0000-0001-9414-7895',
 }
 
 export const template = {
