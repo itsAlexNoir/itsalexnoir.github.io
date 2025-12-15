@@ -4,8 +4,8 @@ export const profile = {
 	institute: 'HP SCDS',
 	author_name: 'A. de la Calle', // Author name to be highlighted in the papers section
 	research_areas: [
+		{ title: 'Computational Science', description: 'Scientific Computing, High Performance Computing (HPC), Bioinformatics', field: 'cs' },
 		{ title: 'Artificial Intelligence', description: 'Deep Learning, Machine Learning, Neural Networks, LLM, GenAI', field: 'ml' },
-		{ title: 'Computational Science', description: 'Scientific Computing, High Performance Computing (HPC)', field: 'cs' },
 	],
 }
 
