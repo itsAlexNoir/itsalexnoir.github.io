@@ -32,7 +32,7 @@
 
 ## [cite_start]🛠️ Work Experience [cite: 8]
 
-### Postdoctoral Researcher (CSIC Momentum Program)
+### Postdoctoral Researcher (CSIC Momentum Program) | Lead of the Bioinformatics and Data Science Unit
 **Institute of Functional Biology and Genomics (IBFG, CSIC-USAL)** (16/04/2026 - now)
 * Current position framed in the CSIC Momentum project "Creación de la Unidad de Bioinformática y Ciencia de Datos del IBFG".
 * Contributes to the creation and development of the Bioinformatics and Data Science Unit, supporting research in data science, bioinformatics and computational biology.
