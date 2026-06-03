@@ -1,10 +1,10 @@
 export const profile = {
 	fullName: 'Alejandro de la Calle, PhD',
-	title: 'Computational Scientist | AI Engineer',
-	institute: 'HP SCDS',
+	title: 'Lead, Bioinformatics and Data Science Unit',
+	institute: 'Institute of Functional Biology and Genomics',
 	author_name: 'A. de la Calle', // Author name to be highlighted in the papers section
 	research_areas: [
-		{ title: 'Computational Science', description: 'Scientific Computing, High Performance Computing (HPC), Bioinformatics', field: 'cs' },
+		{ title: 'Computational Science', description: 'Scientific Computing, High Performance Computing (HPC), Bioinformatics, Computational Biology', field: 'cs' },
 		{ title: 'Artificial Intelligence', description: 'Deep Learning, Machine Learning, Neural Networks, LLM, GenAI', field: 'ml' },
 	],
 }
@@ -35,6 +35,6 @@ export const template = {
 
 export const seo = {
 	default_title: 'Alex de la Calle website',
-	default_description: 'Alex de la Calle, PhD - Computational Scientist and AI Engineer.',
+	default_description: 'Alex de la Calle, PhD - Lead of the Bioinformatics and Data Science Unit at the Institute of Functional Biology and Genomics.',
 	default_image: '/images/astro-academia.png',
 }

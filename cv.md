@@ -1,12 +1,12 @@
 # [cite_start]👤 Alejandro de la Calle, PhD CV [cite: 1]
 
-**Computational Scientist | [cite_start]AI Engineer** [cite: 2]
+**Lead, Bioinformatics and Data Science Unit** [cite: 2]
 
 ---
 
 ## 📧 Contact & Links
 
-* [cite_start]**Email:** alejandrodelacallenegro@gmail.com | alejandro.de.la.calle.negro@hp.com [cite: 3]
+* [cite_start]**Email:** alejandrodelacallenegro@gmail.com | alejandrodelacalle@usal.es | alejandro.decalle@csic.es [cite: 3]
 * [cite_start]**Address:** c/ Príncipe de Vergara 66-92, Portal 15 4B, 37003 Salamanca, Spain [cite: 5]
 * [cite_start]**Phone:** (+34)666657999 [cite: 5]
 * [cite_start]**LinkedIn:** in/alejandro-de-la-calle-negro [cite: 6]
@@ -17,10 +17,10 @@
 ## [cite_start]💻 ML Stack [cite: 7]
 
 ### [cite_start]Keywords [cite: 15]
-[cite_start]Machine Learning (ML), Deep Learning, GenAI, LLM, transformers, CNN, GNN, RNN, Retrieval Augmented Generation (RAG), MLOps. [cite: 16]
+[cite_start]Machine Learning (ML), Deep Learning, GenAI, LLM, transformers, CNN, GNN, RNN, Retrieval Augmented Generation (RAG), MLOps, Computational Biology. [cite: 16]
 
 ### LLM Tools
-[cite_start]Hugging Face's transformers and datasets [cite: 17][cite_start], LangChain [cite: 17][cite_start], NVIDIA NeMo-Guardrails [cite: 18][cite_start], OpenAI API[cite: 24].
+[cite_start]Hugging Face's transformers and datasets [cite: 17][cite_start], LangChain [cite: 17][cite_start], NVIDIA NeMo-Guardrails [cite: 18][cite_start], NVIDIA BioNeMo, OpenAI API[cite: 24].
 
 ### [cite_start]ML Frameworks [cite: 25]
 [cite_start]PyTorch (Lightning) [cite: 26][cite_start], TensorFlow/Keras [cite: 26][cite_start], Flax(Jax)[cite: 27].
@@ -32,8 +32,12 @@
 
 ## [cite_start]🛠️ Work Experience [cite: 8]
 
+### Lead, Bioinformatics and Data Science Unit
+**Institute of Functional Biology and Genomics** (16/04/2026 – now)
+* Leads the Bioinformatics and Data Science Unit, coordinating strategy, scientific support and data-driven initiatives in functional biology and genomics.
+
 ### [cite_start]AI Lead [cite: 9]
-**AI lab. [cite_start]HP SCDS** (04/24 – now) [cite: 10]
+**AI lab. [cite_start]HP SCDS** (04/24 – 15/04/2026) [cite: 10]
 * [cite_start]Leads a team of ML and MLOps engineers dedicated to building a platform to evaluate a variety of LLMs for the new HP's AI PC[cite: 11].
 * [cite_start]Evaluations include calculating common metrics, such as perplexity, BLEU or ROUGE[cite: 12].
 * [cite_start]Carried out single and pairwise evaluations using techniques such as LLM-as-a-judge and agent-as-a-judge with specifically fined-tuned models[cite: 12].

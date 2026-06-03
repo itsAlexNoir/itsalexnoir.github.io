@@ -1,7 +1,14 @@
 export const experiences = [
 	{
+		company: 'Institute of Functional Biology and Genomics',
+		time: '16/04/2026 - Present',
+		title: 'Lead, Bioinformatics and Data Science Unit',
+		location: 'Salamanca, Spain',
+		description: 'Leads the Bioinformatics and Data Science Unit, coordinating strategy, scientific support and data-driven initiatives in functional biology and genomics.',
+	},
+	{
 		company: 'HP SCDS',
-		time: '04/2024 - Present',
+		time: '04/2024 - 15/04/2026',
 		title: 'AI Lead',
 		location: 'AI lab',
 		description: 'Leads a team of ML and MLOps engineers dedicated to building a platform to evaluate a variety of ML models, especially LLMs. The platform can evaluate models both run local or on the cloud. The team is also investigating and developing new metrics to assess LLM\'s performance in different scenarios. Continues to co-supervise BSc and MSc thesis in collaboration with several Spanish universities.',
@@ -98,11 +105,11 @@ export const education = [
 export const skills = [
 	{
 		title: 'Keywords',
-		description: 'Machine Learning (ML), Deep Learning, GenAI, LLM, CNN, GNN, RNN, RAG, MLOps.',
+		description: 'Machine Learning (ML), Deep Learning, GenAI, LLM, CNN, GNN, RNN, RAG, MLOps, Computational Biology.',
 	},
 	{
 		title: 'LLM Tools',
-		description: 'Hugging Face\'s transformers and datasets, LangChain, llama.cpp, VLLM, SGLang, NVIDIA Tensor-RT, OpenAI API.',
+		description: 'Hugging Face\'s transformers and datasets, LangChain, llama.cpp, VLLM, SGLang, NVIDIA Tensor-RT, NVIDIA BioNeMo, OpenAI API.',
 	},
 	{
 		title: 'ML Frameworks',
