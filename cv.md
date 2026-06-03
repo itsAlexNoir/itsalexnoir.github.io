@@ -1,6 +1,6 @@
 # [cite_start]👤 Alejandro de la Calle, PhD CV [cite: 1]
 
-**Lead, Bioinformatics and Data Science Unit** [cite: 2]
+**Postdoctoral Researcher (CSIC Momentum Program)** [cite: 2]
 
 ---
 
@@ -32,9 +32,10 @@
 
 ## [cite_start]🛠️ Work Experience [cite: 8]
 
-### Lead, Bioinformatics and Data Science Unit
-**Institute of Functional Biology and Genomics** (16/04/2026 – now)
-* Leads the Bioinformatics and Data Science Unit, coordinating strategy, scientific support and data-driven initiatives in functional biology and genomics.
+### Postdoctoral Researcher (CSIC Momentum Program)
+**Institute of Functional Biology and Genomics (IBFG, CSIC-USAL)** (16/04/2026 - now)
+* Current position framed in the CSIC Momentum project "Creación de la Unidad de Bioinformática y Ciencia de Datos del IBFG".
+* Contributes to the creation and development of the Bioinformatics and Data Science Unit, supporting research in data science, bioinformatics and computational biology.
 
 ### [cite_start]AI Lead [cite: 9]
 **AI lab. [cite_start]HP SCDS** (04/24 – 15/04/2026) [cite: 10]

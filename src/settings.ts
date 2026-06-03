@@ -1,7 +1,7 @@
 export const profile = {
 	fullName: 'Alejandro de la Calle, PhD',
-	title: 'Lead, Bioinformatics and Data Science Unit',
-	institute: 'Institute of Functional Biology and Genomics',
+	title: 'Postdoctoral Researcher (CSIC Momentum Program)',
+	institute: 'Institute of Functional Biology and Genomics (IBFG, CSIC-USAL)',
 	author_name: 'A. de la Calle', // Author name to be highlighted in the papers section
 	research_areas: [
 		{ title: 'Computational Science', description: 'Scientific Computing, High Performance Computing (HPC), Bioinformatics, Computational Biology', field: 'cs' },
@@ -35,6 +35,6 @@ export const template = {
 
 export const seo = {
 	default_title: 'Alex de la Calle website',
-	default_description: 'Alex de la Calle, PhD - Lead of the Bioinformatics and Data Science Unit at the Institute of Functional Biology and Genomics.',
+	default_description: 'Alex de la Calle, PhD - Postdoctoral Researcher in the CSIC Momentum Program at IBFG (CSIC-USAL), within the project "Creación de la Unidad de Bioinformática y Ciencia de Datos del IBFG".',
 	default_image: '/images/astro-academia.png',
 }

@@ -1,10 +1,10 @@
 export const experiences = [
 	{
-		company: 'Institute of Functional Biology and Genomics',
+		company: 'Institute of Functional Biology and Genomics (IBFG, CSIC-USAL)',
 		time: '16/04/2026 - Present',
-		title: 'Lead, Bioinformatics and Data Science Unit',
+		title: 'Postdoctoral Researcher (CSIC Momentum Program)',
 		location: 'Salamanca, Spain',
-		description: 'Leads the Bioinformatics and Data Science Unit, coordinating strategy, scientific support and data-driven initiatives in functional biology and genomics.',
+		description: 'Current position framed in the CSIC Momentum project "Creación de la Unidad de Bioinformática y Ciencia de Datos del IBFG". Contributes to the creation and development of the Bioinformatics and Data Science Unit, supporting research in data science, bioinformatics and computational biology.',
 	},
 	{
 		company: 'HP SCDS',
